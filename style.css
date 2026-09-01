@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+    --text-color: hsl(0, 0%, 100%);
+    --background-color: hsl(228, 99%, 58%);
+    --font-main: Inter, sans-serif;
+    --font-size-paragraph: 1.0625rem;
+    --font-size-small: 1.0625rem;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    font-size: var(--font-size-paragraph);
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: var(--background-color);
+}
